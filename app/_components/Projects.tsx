@@ -21,7 +21,7 @@ const projects = [
       'PDF Generation',
       'Charts.js',
     ],
-    liveUrl: 'https://fleet-inspect.vercel.app',
+    liveUrl: 'https://fleetinspect.vercel.app',
   },
   {
     title: 'Hotel Booking Platform',
