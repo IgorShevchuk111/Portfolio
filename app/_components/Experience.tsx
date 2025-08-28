@@ -1,19 +1,27 @@
 const experiences = [
   {
-    period: '05/2023 – 11/2023',
-    role: 'Angular Developer',
-    company: 'Freelance',
-    location: 'London, United Kingdom',
+    period: '2025 – Present',
+    role: 'FleetInspect',
+    // company: 'Projects',
+    // location: 'Leeds, United Kingdom',
     description:
-      'Developed and maintained Angular applications with a focus on performance and user experience.',
+      'Digital Vehicle Inspection App: Inspired by real-world logistics systems, digitising inspection processes and implementing modern React/Next.js/TypeScript, Supabase, and Tailwind CSS architecture. Mobile-first app to streamline vehicle inspections, with secure role-based access via Google OAuth and Supabase. Deployed using GitHub Actions and Vercel. ',
   },
   {
-    period: '02/2023 – 07/2023',
-    role: 'Web Developer',
-    company: 'Matracnyk',
-    location: 'Ternopil, Ukraine',
+    period: '2024',
+    role: 'Hotel Booking Platform',
+    // company: 'Projects',
+    // location: 'Leeds, United Kingdom',
     description:
-      'Built and maintained web applications using modern technologies and best practices.',
+      'Full-Stack App: Developed a full-stack booking system with a client-facing site and admin dashboard. Implemented Google authentication, responsive UI, state management with Context API, and enhanced UX with Toastify notifications.',
+  },
+  {
+    period: '2011 – 2023',
+    role: 'Previous Roles (Logistics & Engineering)',
+    company: 'Various',
+    location: 'Ukraine, Poland, UK',
+    description:
+      'Held various logistics and engineering roles in Ukraine, Poland, and the UK, developing strong problem-solving, operational efficiency, and technical skills. Experience managing processes, optimising workflows, and solving real-world problems now informs software development work.',
   },
 ] as const;
 
@@ -35,9 +43,9 @@ export default function Experience() {
               <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100">
                 {exp.role}
               </h3>
-              <div className="text-gray-600 dark:text-gray-400 mb-2">
+              {/* <div className="text-gray-600 dark:text-gray-400 mb-2">
                 {exp.company} | {exp.location}
-              </div>
+              </div> */}
               <p className="text-gray-700 dark:text-gray-300">
                 {exp.description}
               </p>

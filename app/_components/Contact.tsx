@@ -15,7 +15,7 @@ export default function Contact() {
               href="mailto:igorshevchuk111@gmail.com"
               className="text-blue-600 dark:text-blue-400 hover:underline"
             >
-              igorshevchuk111@gmail.com
+              igor.shevchuk.dev@gmail.com
             </a>
             <p className="text-gray-600 dark:text-gray-400">
               Phone: 07869378211

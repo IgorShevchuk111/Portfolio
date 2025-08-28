@@ -12,8 +12,11 @@ export default function About() {
         <div className="max-w-3xl mx-auto">
           <div className="bg-white dark:bg-[#1e293b] rounded-lg shadow-lg p-8">
             <p className="text-gray-700 dark:text-gray-300 text-lg">
-              Software Developer with 2+ years of experience in React, Next.js,
-              Angular, and TypeScript. Based in Leeds, UK.
+              Frontend developer focused on solving real-world problems with
+              scalable applications. Skilled in React, Next.js, Supabase, and
+              CI/CD. Developed FleetInspect, a digital vehicle inspection app,
+              to digitise inspection processes and improve efficiency.
+              Passionate about clean, maintainable, and user-friendly web apps.
             </p>
           </div>
         </div>

@@ -20,7 +20,7 @@ export default function SocialLinks() {
         <FaLinkedin />
       </a>
       <a
-        href="mailto:igorshevchuk111@gmail.com"
+        href="mailto:igor.shevchuk.dev@gmail.com"
         className="text-3xl text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
       >
         <FaEnvelope />

@@ -11,13 +11,13 @@ export default function Education() {
               09/2005 – 07/2010
             </div>
             <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100 mb-2">
-              Bachelor&apos;s in Computer Science
+              Master’s Degree
             </h3>
             <div className="text-gray-600 dark:text-gray-400">
-              Ternopil Ivan Puluj National Technical University
+              Ivano-Frankivsk National Technical University of Oil and Gas
             </div>
             <div className="text-gray-600 dark:text-gray-400 mt-1">
-              Ternopil, Ukraine
+              Ivano-Frankivsk, Ukraine
             </div>
           </div>
         </div>
